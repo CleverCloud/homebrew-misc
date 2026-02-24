@@ -7,16 +7,16 @@ class Mdr < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/CleverCloud/mdr/releases/download/v0.2.7/mdr-aarch64-apple-darwin.tar.gz"
-      sha256 "3029a123825a76f08def1a3786d13c484b9632cb3076787439e4c6e8465e9695"
+      sha256 "70047114d32773df7e812f1dffcb27f9791f981d2c16ac80eee5a49ad35791a4"
     else
       url "https://github.com/CleverCloud/mdr/releases/download/v0.2.7/mdr-x86_64-apple-darwin.tar.gz"
-      sha256 "1c96c3fe7e6030b98ae5675dd92a6b7571331b682a185004ac4ba3a10c456209"
+      sha256 "21ab70bb505306ce12ef7f4871c88d5eaa14785c64a4c1b81ad0b5671c18c944"
     end
   end
 
   on_linux do
     url "https://github.com/CleverCloud/mdr/releases/download/v0.2.7/mdr-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "c79e533a17786b9919a26f3ffd8e971b123e8c4e99c17d2e26c46eff282eec90"
+    sha256 "d2c157f960024acc464a4fc11ff20d3f6793119a5fa6df08d969b55bef81ecc5"
   end
 
   def install
