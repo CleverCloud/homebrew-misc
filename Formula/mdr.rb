@@ -1,22 +1,22 @@
 class Mdr < Formula
   desc "A lightweight Markdown viewer with Mermaid diagram support"
   homepage "https://github.com/CleverCloud/mdr"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/CleverCloud/mdr/releases/download/v0.3.0/mdr-aarch64-apple-darwin.tar.gz"
-      sha256 "f2a35b2aa5e703a22a82c39c7b2b03e2420057c6b82f256323400b9c0c7c7ff2"
+      url "https://github.com/CleverCloud/mdr/releases/download/v0.3.1/mdr-aarch64-apple-darwin.tar.gz"
+      sha256 "b46ccfecd4b1a77ae68b27d8cbd815ba1c663dde3a1cf8b1a501cbf0ef6ac652"
     else
-      url "https://github.com/CleverCloud/mdr/releases/download/v0.3.0/mdr-x86_64-apple-darwin.tar.gz"
-      sha256 "fd8c63963b987ce148e270fcfebff1f5745cc00ca67fc88be7b047b8436466ed"
+      url "https://github.com/CleverCloud/mdr/releases/download/v0.3.1/mdr-x86_64-apple-darwin.tar.gz"
+      sha256 "3405d53b26814a3d512dbfa7b34ed88ce2b3ed493fbefedc626bc44358760c01"
     end
   end
 
   on_linux do
-    url "https://github.com/CleverCloud/mdr/releases/download/v0.3.0/mdr-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "4e272812e8f28f26f3477fa59e564dd6c7ec0603e59a4880176171b1dfcb6596"
+    url "https://github.com/CleverCloud/mdr/releases/download/v0.3.1/mdr-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "bfc0c2d653e1e323b35ba4210f242ea0cecb4fe9db84950795cefa1f9a10ad69"
   end
 
   def install
